@@ -1,7 +1,7 @@
 import json
 
 import requests
-from requests import Response
+
 
 
 def get_request(url,auth):
@@ -12,7 +12,7 @@ def post_request(url,headers,auth,payload,in_json):
     if in_json is True:
         return response.json()
     return response
-def put_request(url,headers,auth,payload,in_json):
+def put_request(url, headers, auth, payload, in_json):
     response=requests.put(url=url,headers=headers,auth=auth,data=json.dumps(payload))
     if in_json is True:
         return response.json()

@@ -10,4 +10,4 @@ class APIConstants(object):
         return "https://restful-booker.herokuapp.com/auth"
     @staticmethod
     def put_patch_delete_url(self,booking_id):
-        return "https://restful-booker.herokuapp.com/booking/"+str(self.booking_id)
+        return "https://restful-booker.herokuapp.com/booking/"+str(booking_id)

@@ -3,7 +3,7 @@ import json
 faker=Faker()
 def create_booking_payload():
     payload={
-    "firstname" : "Jim",
+    "firstname" : "Sumit",
     "lastname" : "Brown",
     "totalprice" : 111,
     "depositpaid" : True,
