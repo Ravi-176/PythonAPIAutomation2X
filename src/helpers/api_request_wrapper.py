@@ -6,7 +6,7 @@ import requests
 
 def get_request(url,auth):
     response=requests.get(url=url,auth=auth)
-    return response.json()
+    return response
 def post_request(url,headers,auth,payload,in_json):
     response=requests.post(url=url,headers=headers,auth=auth,data=json.dumps(payload))
     if in_json is True:

@@ -33,3 +33,9 @@ def create_token_payload():
         "password": "password123"
     }
     return payload
+def partial_update_payload():
+    payload={
+    "firstname" : "Aayush",
+    "lastname" : "Brown"
+    }
+    return payload
