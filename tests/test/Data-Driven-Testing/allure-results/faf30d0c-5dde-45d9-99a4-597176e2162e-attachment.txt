@@ -1,0 +1,2 @@
+[{'username': 'admin', 'password': 'admin@123'}, {'username': 'admin', 'password': 'password@123'}, {'username': 'admin', 'password': 'password@65'}, {'username': 'admin', 'password': 'admin@65'}, {'username': 'admin', 'password': 'secret'}, {'username': 'admin', 'password': 'topsecret'}]
+admin admin@123
